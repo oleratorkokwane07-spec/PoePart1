@@ -59,7 +59,7 @@ public class Registration { // start of class
             this.cellPhone = cellphone; 
             return "Registratiomn was successfull";
         }else{
-            return "Registration was umsuccessfull";
+            return "Registration was unsuccessfull";
         }
     }
     

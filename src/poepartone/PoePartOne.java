@@ -41,7 +41,13 @@ public class PoePartOne {
            
         System.out.println("\n=====Login=====");       
                 
-            
+        System.out.println("Please enter the username to login");
+        String userName = scan.nextLine();
+        
+        System.out.println("Enter password to Login");
+        String  passWord = scan.nextLine();
+        
+        System.out.println(register.LoginUser(userName, passWord));
         
         
     }
