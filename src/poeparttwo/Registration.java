@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package poepartone;
+package poeparttwo;
 
 /**
  *
@@ -15,7 +15,8 @@ public class Registration { // start of class
     String cellPhone;
     
     public boolean checkUserName(String username){ // start of username method
-      if(username.contains("@") && username.length() >= 3){
+      if(username.contains("@") && 
+              username.length() >= 5){
           return true;
       } else{
           return false;
